@@ -235,6 +235,14 @@ class MybatisPlusApplicationTests {
     public void trrttest(){
         System.out.println(Integer.compare(2,1));
         //、
+        System.out.println("        System.out.println(\"\");\n");
+        String str = "132";
+        System.out.println("132".equals(str));
+        System.out.println(Objects.equals(str,"132"));
+        int i = 0;
+        int a = 5;
+        //i = i+++5;
+        System.out.println(++i+a);
     }
 
 
